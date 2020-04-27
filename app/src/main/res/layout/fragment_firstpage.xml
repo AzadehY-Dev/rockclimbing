@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash"
+    android:clickable="true"
+    android:background="@drawable/bk">
+
+
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/b1"
+        android:alpha="0.9"
+        android:layout_centerInParent="true"
+        android:id="@+id/b1"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/b2"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:alpha="0.7"
+        android:layout_centerInParent="true"
+        android:src="@drawable/b2"></ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/b3"
+        android:alpha="0.7"
+        android:layout_centerInParent="true"
+        android:id="@+id/b3"></ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/b4"
+        android:alpha="0.7"
+        android:layout_centerInParent="true"
+        android:id="@+id/b4"></ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/b5"
+        android:alpha="0.7"
+        android:layout_centerInParent="true"
+        android:id="@+id/b5"></ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/b6"
+        android:alpha="0.7"
+        android:layout_centerInParent="true"
+        android:id="@+id/b6"></ImageView>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="ورود"
+            android:alpha="0.7"
+            android:fontFamily="@font/homa2"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/login"></com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="ثبت نام"
+            android:alpha="0.7"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/homa2"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/signout"></com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/snow"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#7D7C78"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Copyright by AzaD"
+        android:id="@+id/main_copyright"/>
+
+</RelativeLayout>

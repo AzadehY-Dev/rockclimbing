@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.signin"
+    android:clickable="true"
+    android:background="@drawable/bk"
+>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:orientation="vertical">
+
+
+       <EditText
+           android:id="@+id/signin_cell"
+           android:hint="شماره همراه(مانند 09112223344)"
+           android:textAlignment="center"
+           android:layout_gravity="center"
+           android:fontFamily="@font/homa2"
+           android:textColor="#FFE603"
+           android:textColorHint="#E2D575"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="120px"
+           android:layout_marginLeft="120px"
+           android:layout_marginTop="10dp"
+           ></EditText>
+
+
+       <EditText
+           android:id="@+id/signin_pass"
+           android:hint="رمز عبور"
+           android:textAlignment="center"
+           android:layout_gravity="center"
+           android:fontFamily="@font/homa2"
+           android:textColor="#FFE603"
+           android:textColorHint="#E2D575"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="120px"
+           android:layout_marginLeft="120px"
+           android:layout_marginTop="10dp"
+           ></EditText>
+
+
+       <Button
+           android:id="@+id/signin_register"
+           android:layout_width="500px"
+           android:layout_height="120px"
+           android:layout_gravity="center"
+           android:layout_marginTop="25dp"
+           android:text="ورود"
+           android:fontFamily="@font/homa2"
+           android:textStyle="bold"
+           style="@style/TextAppearance.AppCompat.Medium"
+           android:textColor="@android:color/white"
+           ></Button>
+
+       <TextView
+           android:id="@+id/signin_forgetpass"
+           android:textAlignment="center"
+           android:layout_gravity="center"
+           android:textColor="#DBDBDB"
+           style="@style/TextAppearance.AppCompat.Small"
+           android:textStyle="italic"
+           android:fontFamily="@font/homa2"
+           android:linksClickable="true"
+           android:layout_marginTop="45px"
+           android:autoLink="web"
+           android:text="رمز عبور را فراموش کردید؟"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+       </TextView>
+   </LinearLayout>
+    </ScrollView>
+</FrameLayout>
